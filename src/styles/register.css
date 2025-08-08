@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #c84040;
+  display: flex;
+}
+
+.split-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.right-side {
+  flex: 0.54;
+  background-color: #c84040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-side {
+  flex: 0.5;
+  border-radius: 0 7% 7% 0%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.right-side img {
+  max-width: 100%;
+  height: auto;
+}
+
+.left-side iframe {
+  width: 0%;
+  height: 80%;
+  border: none;
+  border-radius: 0px;
+}
+
+.container {
+  width: 150%;
+  height: 105%;
+  border: 2px solid red;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-title-color);
+  font-size: 1.1rem;
+}
+
+/*Logo*/
+.logo {
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.logo-img {
+  width: 40px;
+  height: 40px;
+}
+.logo-name {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 0.5rem;
+  color: var(--text-title-color);
+}
