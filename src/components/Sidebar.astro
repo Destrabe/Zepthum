@@ -7,7 +7,10 @@ import "../styles/sidebar.css";
     <ul>
       <!-- Home -->
       <li>
-        <a href="/" class={Astro.url.pathname === "/home" ? "selected" : ""}>
+        <a
+          href="/dashboard"
+          class={Astro.url.pathname === "/home" ? "selected" : ""}
+        >
           <img src="/src/assets/svg/home.svg" alt="Home" />
           <span>Home</span>
         </a>
